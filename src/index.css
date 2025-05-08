@@ -58,6 +58,7 @@ header p {
 }
 
 .status-bar p {
+  margin-block:10px;
   font-size: 1rem;
 }
 

@@ -3,7 +3,6 @@ import clsx from "clsx";
 import "./App.css";
 import { languageArray } from "./language";
 import { wordList } from "./wordList";
-
 const getRandomWords = () => {
   const randomIndex = Math.floor(Math.random() * wordList.length);
   return wordList[randomIndex].toUpperCase();
@@ -80,16 +79,16 @@ function App() {
   return (
     <>
       <header>
-        <h1>Assembly: Endgame</h1>
+        <h1>Food: Endgame</h1>
         <p>
-          Guess the word in 8 attempts to save the programming world safe from
-          Assembly
+          Guess the food in 8 attempts to save the  world  from
+          Karela
         </p>
       </header>
       {isGameOver ? (
         <div className="status-bar over">
           <h2>Game Over!</h2>
-          <p>You are owned with Assembly</p>
+          <p>Eat Your Ventaaa Baby!!🍆🍆🍆🍆</p>
         </div>
       ) : isWin ? (
         <div className="status-bar">
